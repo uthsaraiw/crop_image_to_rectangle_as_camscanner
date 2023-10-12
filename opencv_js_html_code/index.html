@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "index.css">
+    <script async src="https://docs.opencv.org/master/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="details">
+        <div class="break"> </div>
+        <input type="file" id="fileInput" accept="image/*">
+        <button id="dots" onclick="processImage()">Process Image</button>
+        <button id="next" onclick="saveA4()">Next >>></button>
+        </div>
+    </div>    
+    <canvas id="canvas2"></canvas>
+</body>
+
+<script src="index.js"></script>
+
+</html>
